@@ -1,0 +1,49 @@
+name: helloworld
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  
+  qr_flutter: ^4.1.0
+  
+  
+  flutter_barcode_scanner: ^2.0.0
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+  hive_generator: ^1.1.0
+  build_runner: ^2.1.4
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - Images/dice1.png
+    - Images/dice2.png
+    - Images/dice3.png
+    - Images/dice4.png
+    - Images/dice5.png
+    - Images/dice6.png
+  #  - images/a_dot_ham.jpeg
+  fonts:
+    - family: Schyler
+      fonts:
+        - asset: Fonts/A10-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
